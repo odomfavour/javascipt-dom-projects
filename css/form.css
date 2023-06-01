@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: chocolate;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper {
+    background: white;
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 4px #ccc;
+}
+
+.form-wrapper label {
+    display: block;
+    font-size: 20px;
+}
+
+.form-wrapper input[type="text"], .form-wrapper input[type="email"], .form-wrapper input[type="password"], select {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-wrapper .btn {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gender .gender-label, .hobbies .hobbies-label {
+    display: inline-block;
+}
